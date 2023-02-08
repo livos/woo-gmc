@@ -1,0 +1,6 @@
+woo api:
+  timeout: 50
+
+merchant center:
+  country: US
+  language: en
