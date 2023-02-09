@@ -33,10 +33,6 @@ class WooApi:
         return self._connection
 
     def _connect_api(self):
-        print(self._url)
-        print(self._c_key)
-        print(self._c_secret)
-        print(self._timeout)
         wcapi = API(
             url=self._url,
             consumer_key=self._c_key,

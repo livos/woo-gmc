@@ -24,7 +24,6 @@ class Woo():
 
     def all_products(self):
         products = get_all_products(self.api)
-        print(products)
         products_arr = []
         for p in products:
             woo_product = WooProduct(p["id"],

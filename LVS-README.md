@@ -1,4 +1,3 @@
-# Auth
 1. Download file `content-api-key.json` by creating an API key in Google Merchant Center
 2. Rename it to `service-account.json` and place it in `home/shopping-samples/content/` (*This path is defined in /shopping/content/common.py file in the project*)
 3. Create an empty `merchant-info.json` file in this same directory and add this code in it:
